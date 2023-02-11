@@ -1,0 +1,60 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #17181a;
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: cent er;
+  min-height: 100vh;
+}
+.signIn {
+  background-color: #323640;
+  max-width: 520px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 40px;
+}
+.input {
+  outline: 0;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+}
+.sigIn_btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  padding: 5px 5px;
+}
