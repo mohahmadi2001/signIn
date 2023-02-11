@@ -59,7 +59,7 @@ body {
 .input {
   display: flex;
 }
-input {
+/* .form_control {
   outline: 0;
   width: 100%;
   border: none;
@@ -68,6 +68,18 @@ input {
   background-color: #212327;
   margin: 6px;
   border-radius: 5px;
+} */
+.form_control {
+  outline: 0;
+  background-color: #212327;
+  width: 100%;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 60px;
+  font-size: 12px;
+  margin: 5px;
 }
 .forgotPass {
   padding-bottom: 8px;
@@ -89,7 +101,7 @@ input {
   width: 100%;
   margin: auto;
   font-weight: bold;
-  padding: 5px 5px;
+  padding: 7px 5px;
   border-radius: 5px;
 }
 .txt1 {
@@ -120,4 +132,25 @@ input {
 }
 .bg3 {
   background-color: #ea4335;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.field-icon {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, 0.9);
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
