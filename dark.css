@@ -38,16 +38,23 @@ body {
 .signIn {
   background-color: #323640;
   max-width: 520px;
+  max-height: 654.38حط;
   text-align: center;
   border-radius: 15px;
   padding: 40px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
 }
-.input {
+input {
   outline: 0;
   width: 100%;
-  border: 0;
-  padding: 15px;
-  font-size: 14px;
+  border: none;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #212327;
+  margin: 10px;
 }
 .sigIn_btn {
   background-color: blue;
