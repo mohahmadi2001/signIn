@@ -1,0 +1,145 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("../fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("../fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #17181a;
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 100vh;
+}
+.signIn {
+  background-color: #323640;
+  max-width: 520px;
+  max-height: 654.38حط;
+  text-align: center;
+  border-radius: 10px;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+}
+.image_container {
+  padding-bottom: 8px;
+}
+.signIn_icon {
+  width: 70px;
+}
+.input {
+  display: flex;
+}
+.form_control {
+  outline: 0;
+  background-color: #212327;
+  width: 100%;
+  border: none;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 60px;
+  font-size: 12px;
+  margin: 5px;
+  color: white;
+}
+.forgotPass {
+  padding-bottom: 8px;
+  text-align: right;
+}
+#forgotPass {
+  font-size: 12px;
+  color: #9399a3;
+  padding: 6px;
+  text-decoration: none;
+}
+.btn {
+  padding-bottom: 10px;
+}
+.sigIn_btn {
+  background-color: #691afd;
+  color: white;
+  border: none;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  padding: 7px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.txt1 {
+  font-size: 12px;
+  color: #9399a3;
+}
+.other_icon {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social_item {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+}
+.bg1 {
+  background-color: #3b5998;
+}
+.bg2 {
+  background-color: #1da1f2;
+}
+.bg3 {
+  background-color: #ea4335;
+}
+.field-icon {
+  position: absolute;
+  top: 50%;
+  right: 33px;
+  transform: translateY(-110%);
+  color: rgba(99, 98, 98, 0.9);
+  cursor: pointer;
+}
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+}
