@@ -59,16 +59,6 @@ body {
 .input {
   display: flex;
 }
-/* .form_control {
-  outline: 0;
-  width: 100%;
-  border: none;
-  padding: 9px 32px;
-  font-size: 12px;
-  background-color: #212327;
-  margin: 6px;
-  border-radius: 5px;
-} */
 .form_control {
   outline: 0;
   background-color: #212327;
@@ -103,6 +93,7 @@ body {
   font-weight: bold;
   padding: 7px 5px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .txt1 {
   font-size: 12px;
@@ -139,6 +130,7 @@ body {
   right: 33px;
   transform: translateY(-110%);
   color: rgba(99, 98, 98, 0.9);
+  cursor: pointer;
 }
 .fa-fw {
   width: 1.28571429em;
